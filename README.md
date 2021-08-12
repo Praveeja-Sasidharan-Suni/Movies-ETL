@@ -45,3 +45,13 @@ with the movies_df DataFrame to create the movies_with_ratings_df.
 ![Movies-data-count.PNG](https://github.com/Praveeja-Sasidharan-Suni/Movies-ETL/blob/main/Resources/Movies-data-count.PNG?raw=true)
 ![ratings_query.png](https://github.com/Praveeja-Sasidharan-Suni/Movies-ETL/blob/main/Resources/ratings_query.png?raw=true)
 ![Ratings-data-count.PNG](https://github.com/Praveeja-Sasidharan-Suni/Movies-ETL/blob/main/Resources/Ratings-data-count.PNG?raw=true)
+
+## Summary
+
+The pipeline was created under the following assumptions:
+- I was able to join the wikipedia, kaggle, and ratings movie data on the IMDB ID column. 
+- Each dataset had to be cleaned on their own because they had overlapping columns, suck as 'Director' and 'Directed By', unecessary columns, many null values, TV shows, outliers, duplicates, incorrect data types, formatting, and other errors. 
+- The wikipedia movie data was in json format. 
+- Not every every movie had a rating for each rating level. 
+- The ratings dataset had more than 26 million entries which generated a time constraint and a processing data challenge.
+
